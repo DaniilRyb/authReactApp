@@ -1,6 +1,6 @@
 import React from 'react';
 import {useDispatch} from "react-redux";
-import {getAuth, createUserWithEmailAndPassword} from "firebase/auth";
+import {createUserWithEmailAndPassword, getAuth} from "firebase/auth";
 import Form from "./Form";
 import {setUser} from "../store/slice/userSlice";
 import {useNavigate} from "react-router-dom";

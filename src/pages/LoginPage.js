@@ -10,7 +10,7 @@ const LoginPage = () => {
             <p>
                 Or <Link to="/register">register</Link>
             </p>
-            </div>
+        </div>
     );
 };
 
